@@ -1,0 +1,24 @@
+{
+  "name": "mi-primer-endpoint",
+  "version": "1.0.0",
+  "description": "Crearemos nuestro primer endpoint con NodeJS y Axios",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src /index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "endpoint",
+    "Axios",
+    "JavaScript"
+  ],
+  "author": "Elizabeth Garcia Baeza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
