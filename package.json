@@ -4,7 +4,7 @@
   "description": "Crearemos nuestro primer endpoint con NodeJS y Axios",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src /index.js",
+    "dev": "nodemon index.js",
     "start": "npm run migrateandseed && node index.js"
   },
   "keywords": [
