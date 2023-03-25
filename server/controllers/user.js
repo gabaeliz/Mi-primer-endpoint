@@ -4,9 +4,7 @@ const addUserInfo = async (req, res) => {
     try {
         const { body } = req;
         const user = await models.connectPeople.create({
-            firstName: body.firstName,
-            lastName: body.lastName,
-            email: body.email,
+            Name: body.Name,
             password: body.password
         });
         return res.status(201).send(user);

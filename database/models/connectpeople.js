@@ -14,9 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   connectPeople.init({
-    firstName: DataTypes.STRING,
-    lastName: DataTypes.STRING,
-    email: DataTypes.STRING,
+    Name: DataTypes.STRING,
     password: DataTypes.STRING
   }, {
     sequelize,
